@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:boxCornerRadiusBottomEnd="16dp"-->
+<!--        app:boxCornerRadiusBottomStart="16dp"-->
+<!--        app:boxCornerRadiusTopEnd="16dp"-->
+<!--        app:boxCornerRadiusTopStart="16dp"-->
+<!--        android:hint="Enter Mobile Number"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"/>-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/etPasswordLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:boxCornerRadiusBottomEnd="16dp"-->
+<!--        app:boxCornerRadiusBottomStart="16dp"-->
+<!--        app:boxCornerRadiusTopEnd="16dp"-->
+<!--        app:boxCornerRadiusTopStart="16dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:hint="Mobile Number"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"-->
+
+<!--        tools:ignore="MissingConstraints">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/number"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:ems="10"-->
+
+<!--            android:inputType="number"-->
+
+
+<!--            android:padding="10dp"-->
+
+<!--            tools:layout_editor_absoluteX="-2dp"-->
+<!--            tools:layout_editor_absoluteY="138dp"-->
+<!--            android:autofillHints="" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="292dp"
+        android:text="Send Message"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
